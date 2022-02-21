@@ -1,7 +1,7 @@
 @import "https://swift-ui-library.netlify.app/style.css";
 @import "/CSS/navbar.css";
 @import "/CSS/search-bar.css";
-@import "/CSS/rules.css";
+@import "/CSS/utility.css";
 @import "/CSS/questions.css";
 
 :root {
