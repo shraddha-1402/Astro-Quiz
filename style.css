@@ -8,13 +8,10 @@
   --primary-color: #051b3a;
 }
 
-* {
-  color: white;
-}
-
 body {
   margin: 0;
   background-color: var(--primary-color);
+  color: white;
 }
 
 .bg-img {

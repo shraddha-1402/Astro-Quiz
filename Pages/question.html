@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script defer src="https://kit.fontawesome.com/f08ee55cc8.js" crossorigin="anonymous"></script>
   <script defer src="/index.js"></script>
+  <script defer src="/JS/question.js"></script>
   <link rel="stylesheet" href="/style.css">
   <title>Astro Quiz</title>
   <link rel="shortcut icon" href="/Images/favicon.png" type="image/x-icon">
@@ -46,7 +47,7 @@
       <span class="md-text m-0-5"> Question: 1/5 </span>
       <span class="md-text m-0-5"> 60 secs </span>
     </div>
-    <div class="grid-2-col gap-2 container mw-48r">
+    <div class="grid-2-col gap-2 container mx-auto my-2 mw-48r">
       <img src="/Images/question.png" alt="question1-img" class="responsive-img">
       <div class="flex-col">
         <p> This constellation is well known for its association with an astrological term that was popularized in the
@@ -64,10 +65,26 @@
       </div>
     </div>
 
-    <div class="flex-row justify-center m-1">
+    <div class="flex-row justify-spc-bet m-1 mw-48r mx-auto">
+      <button class="btn btn-solid-danger" id="open-modal">Quit Quiz</button>
+
       <a href="/Pages/result.html" class="link">
         <button class="btn btn-solid-primary">Next Question</button>
       </a>
+    </div>
+
+    <div class="pos-abs" id="disable-bg">
+    </div>
+    <div class="modal-box" id="modal-box">
+      <p class="mx-0-5 center-text">Are You Sure You Want To Quit?</p>
+      <div class="flex mt-1">
+        <a href="/" class="link m-0-5">
+          <button class="btn btn-outline-secondary modal-action-btn">Quit</button>
+        </a>
+        <a href="/Pages/question.html" class="link m-0-5">
+          <button class="btn btn-solid-primary modal-action-btn">Cancel</button>
+        </a>
+      </div>
     </div>
 
   </main>
