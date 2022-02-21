@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="https://kit.fontawesome.com/f08ee55cc8.js" crossorigin="anonymous"></script>
+  <script defer src="/index.js"></script>
+  <link rel="stylesheet" href="/style.css">
+  <title>Astro Quiz</title>
+  <link rel="shortcut icon" href="/Images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="bg-img"></div>
+  <nav class="nav">
+    <a class="link" href="/">
+      <h1 class="nav-heading m-0-5">Astro Quiz</h1>
+    </a>
+    <ul class="ml-auto list-style-none m-0-5">
+      <div class="pos-rel">
+        <a href="#" class="link nav-dropdown-link">
+          <li class="fas fa-user nav-dropdown-link nav-icon"></li>
+        </a>
+        <div class="nav-dropdown pos-abs">
+          <ul class="list-style-none">
+            <a href="#" class="link">
+              <li class="nav-dropdown-item">Profile</li>
+            </a>
+            <a href="#" class="link">
+              <li class="nav-dropdown-item">Login</li>
+            </a>
+            <a href="#" class="link">
+              <li class="nav-dropdown-item">Logout</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </ul>
+  </nav>
+
+  <main class="content-body">
+    <h1 class="center-text my-2">
+      Rules Before You Dive In
+    </h1>
+    <div class="container mw-40r flex-col">
+      <ul class="list-style-none">
+        <li class="m-1">
+          <i class="fas fa-hand-point-right mr-0-25"></i>
+          Each question has only one correct answer
+        </li>
+        <li class="m-1">
+          <i class="fas fa-hand-point-right mr-0-25"></i>
+          For each correct answer you will be awarded 10 points
+        </li>
+        <li class="m-1">
+          <i class="fas fa-hand-point-right mr-0-25"></i>
+          For every wrong answer 5 points will be deducted
+        </li>
+        <li class="m-1">
+          <i class="fas fa-hand-point-right mr-0-25"></i>
+          Each quiz has 5 questions
+        </li>
+        <li class="m-1">
+          <i class="fas fa-hand-point-right mr-0-25"></i>
+          Once you click submit you will not be able to go back to the previous question
+        </li>
+        <li class="m-1">
+          <i class="fas fa-hand-point-right mr-0-25"></i>
+          To win you need to score at least 70%
+        </li>
+      </ul>
+      <div class="flex-row justify-center m-1">
+        <a href="/Pages/question.html" class="link">
+          <button class="btn btn-solid-primary">Start Quiz</button>
+        </a>
+      </div>
+    </div>
+    <p class="header-text">
+      <i>Do Not Go Gentle Into That Goodnight.</i>
+      ~ Interstellar
+    </p>
+  </main>
+</body>
+
+</html>
