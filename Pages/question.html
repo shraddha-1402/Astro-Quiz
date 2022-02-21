@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="https://kit.fontawesome.com/f08ee55cc8.js" crossorigin="anonymous"></script>
+  <script defer src="/index.js"></script>
+  <link rel="stylesheet" href="/style.css">
+  <title>Astro Quiz</title>
+  <link rel="shortcut icon" href="/Images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="bg-img"></div>
+  <nav class="nav">
+    <a class="link" href="/">
+      <h1 class="nav-heading m-0-5">Astro Quiz</h1>
+    </a>
+    <ul class="ml-auto list-style-none m-0-5">
+      <div class="pos-rel">
+        <a href="#" class="link nav-dropdown-link">
+          <li class="fas fa-user nav-dropdown-link nav-icon"></li>
+        </a>
+        <div class="nav-dropdown pos-abs">
+          <ul class="list-style-none">
+            <a href="#" class="link">
+              <li class="nav-dropdown-item">Profile</li>
+            </a>
+            <a href="#" class="link">
+              <li class="nav-dropdown-item">Login</li>
+            </a>
+            <a href="#" class="link">
+              <li class="nav-dropdown-item">Logout</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </ul>
+  </nav>
+  <main class="content-body">
+    <h1 class="center-text my-2">
+      Guess The Constellation?
+    </h1>
+    <div class="flex-row mx-auto justify-spc-bet mw-48r">
+      <span class="md-text m-0-5"> Question: 1/5 </span>
+      <span class="md-text m-0-5"> 60 secs </span>
+    </div>
+    <div class="grid-2-col gap-2 container mw-48r">
+      <img src="/Images/question.png" alt="question1-img" class="responsive-img">
+      <div class="flex-col">
+        <p> This constellation is well known for its association with an astrological term that was popularized in the
+          1960s and 1970s by the counterculture movement in the United States.</p>
+        <div class="flex-col justify-center">
+          <input class="option-input" type="radio" name="option" id="option1">
+          <label class="option-label" for="option1">Virgo</label>
+          <input class="option-input" type="radio" name="option" id="option2">
+          <label class="option-label" for="option2">Aquarious</label>
+          <input class="option-input" type="radio" name="option" id="option3">
+          <label class="option-label" for="option3">Andromeda</label>
+          <input class="option-input" type="radio" name="option" id="option4">
+          <label class="option-label" for="option4">Aries</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex-row justify-center m-1">
+      <a href="/Pages/result.html" class="link">
+        <button class="btn btn-solid-primary">Next Question</button>
+      </a>
+    </div>
+
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+.option-input {
+  opacity: 0;
+}
+
+.option-label {
+  padding: 0.7rem;
+  border-radius: 0.25rem;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.option-label:hover {
+  color: var(--primary-color);
+  background-color: white;
+  transition: all 0.2s ease-in;
+}
+
+input[type="radio"]:checked.option-input + .option-label {
+  color: var(--primary-color);
+  background-color: white;
+}
