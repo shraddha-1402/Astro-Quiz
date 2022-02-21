@@ -1,0 +1,71 @@
+@import "https://swift-ui-library.netlify.app/style.css";
+@import "/CSS/navbar.css";
+@import "/CSS/search-bar.css";
+@import "/CSS/rules.css";
+@import "/CSS/questions.css";
+
+:root {
+  --primary-color: #051b3a;
+}
+
+* {
+  color: white;
+}
+
+body {
+  margin: 0;
+  background-color: var(--primary-color);
+}
+
+.bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background-image: url("/Images/header.png");
+  background-size: cover;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.content-body {
+  height: calc(100vh - 4rem);
+  overflow: auto;
+  background-color: rgba(5, 27, 58, 0.2);
+  padding: 1rem;
+}
+
+.header-text {
+  max-width: 60rem;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.btn-solid-primary {
+  background-color: var(--primary-color);
+  border: 1px solid white;
+}
+
+.search-create-container {
+  display: flex;
+  gap: 1rem;
+  max-width: 40rem;
+  margin: 4rem auto 1rem;
+}
+
+.create-btn {
+  width: fit-content;
+  transition: all 0.2s ease-in;
+}
+
+.create-btn:hover {
+  background-color: white;
+  color: var(--primary-color);
+  transition: all 0.2s ease-out;
+}
+
+.card {
+  background-color: #030e1d;
+  box-shadow: none;
+}
