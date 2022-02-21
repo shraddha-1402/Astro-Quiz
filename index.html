@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="https://kit.fontawesome.com/f08ee55cc8.js" crossorigin="anonymous"></script>
+  <script defer src="/index.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Astro Quiz</title>
+  <link rel="shortcut icon" href="/Images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="bg-img"></div>
+  <nav class="nav">
+    <a class="link" href="/">
+      <h1 class="nav-heading m-0-5">Astro Quiz</h1>
+    </a>
+    <ul class="ml-auto list-style-none m-0-5">
+      <div class="pos-rel">
+        <a href="#" class="link nav-dropdown-link">
+          <li class="fas fa-user nav-dropdown-link nav-icon"></li>
+        </a>
+        <div class="nav-dropdown pos-abs">
+          <ul class="list-style-none">
+            <a href="#" class="link">
+              <li class="nav-dropdown-item">Profile</li>
+            </a>
+            <a href="#" class="link">
+              <li class="nav-dropdown-item">Login</li>
+            </a>
+            <a href="#" class="link">
+              <li class="nav-dropdown-item">Logout</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </ul>
+  </nav>
+  <main class="content-body">
+    <h1 class="center-text my-2">
+      A Quiz For All The Astronomy Nerds Out There
+    </h1>
+    <p class="header-text">For as long as humans have been looking up at the twinkling stars, they have been fascinated
+      by their beauty and might. But for some inquisitive minds, who look deeper and beyond, these stars are way more
+      than twinkling bodies. This quiz here is for those nerds, who wants to feed more to their curious minds. So, dive
+      down!</p>
+
+    <div class="search-create-container">
+      <div class="search-bar">
+        <input type="search" name="search" id="search-quizes" class="search-input" placeholder="search quizes">
+        <button class="search-btn">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+      <button class="btn btn-solid-primary create-btn">
+        <i class="fas fa-plus mr-0-25"></i>
+        New Quiz
+      </button>
+    </div>
+
+    <div class="flex-row justify-center gap-2 flex-wrap my-3-5">
+      <div class="card mw-16r">
+        <img src="/Images/constellation.jpg" alt="music-albums" class="card-img responsive-img">
+        <div class="flex-col gap-0-25 m-0-5">
+          <h3>Guess the Constellation?</h3>
+          <p class="sm-text">Hard</p>
+          <p class="sm-text">Among the numerous stars in the sky, some have a unique meaning. Play the quiz to
+            find if
+            you know them!
+          </p>
+          <a href="/Pages/rules.html" class="link">
+            <button class="btn btn-solid-primary mt-1 mb-0-5 w-100p">Play Now</button>
+          </a>
+        </div>
+      </div>
+
+      <div class="card mw-16r">
+        <img src="/Images/solar-system.jpg" alt="music-albums" class="card-img responsive-img">
+        <div class="flex-col gap-0-25 m-0-5">
+          <h3>Know Our Solar System?</h3>
+          <p class="sm-text">Hard</p>
+          <p class="sm-text">Among the numerous stars in the sky, some have a unique meaning. Play the quiz to
+            find if
+            you know them!
+          </p>
+          <a href="/Pages/rules.html" class="link">
+            <button class="btn btn-solid-primary mt-1 mb-0-5 w-100p">Play Now</button>
+          </a>
+        </div>
+      </div>
+
+      <div class="card mw-16r">
+        <img src="Images/nebula.jpg" alt="music-albums" class="card-img responsive-img">
+        <div class="flex-col gap-0-25 m-0-5">
+          <h3>Guess the Nebula?</h3>
+          <p class="sm-text">Hard</p>
+          <p class="sm-text">Among the numerous stars in the sky, some have a unique meaning. Play the quiz to
+            find if
+            you know them!
+          </p>
+          <a href="/Pages/rules.html" class="link">
+            <button class="btn btn-solid-primary mt-1 mb-0-5 w-100p">Play Now</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </main>
+</body>
+
+</html>
