@@ -1,6 +1,5 @@
 .container {
   padding: 1rem;
-  margin: 2rem auto;
   background-color: #030e1d;
 }
 
@@ -10,4 +9,8 @@
 
 .mw-40r {
   max-width: 40rem;
+}
+
+.pointer-event-none {
+  pointer-events: none;
 }
