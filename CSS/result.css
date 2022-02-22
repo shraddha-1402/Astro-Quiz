@@ -1,0 +1,11 @@
+.checked-right {
+  background-color: #388e3c;
+  color: white;
+  border: 1px solid #388e3c;
+}
+
+.checked-wrong {
+  background-color: var(--red);
+  color: white;
+  border: 1px solid var(--red);
+}

@@ -3,6 +3,7 @@
 @import "/CSS/search-bar.css";
 @import "/CSS/utility.css";
 @import "/CSS/question.css";
+@import "/CSS/result.css";
 
 :root {
   --primary-color: #051b3a;
