@@ -54,6 +54,10 @@ This page will display the result of the quiz. It has
 ![image](https://user-images.githubusercontent.com/69422250/155062061-77fa1cb4-52ae-4357-8ea1-9937134d0efd.png)
 ![image](https://user-images.githubusercontent.com/69422250/155062110-6808ad95-1936-4b55-8f10-4374aef7b19f.png)
 
+## Working video of the app
+
+![Astro Quiz](https://user-images.githubusercontent.com/69422250/155186385-8c658c5b-a103-465b-8f78-6e6c79989c8f.gif)
+
 
 ## Connect with me on
 
